@@ -73,12 +73,31 @@
       .wrapper > div {
         width: 100%;
       }
-      #column {
-        background: red;
-      }
       #full-page {
+        background: #4EDAB7;
         min-height: 100vh;
       }
+      #video-container {
+        margin: 0px 86px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+      }
+      #video-text {
+        margin: 0;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+
+        font-size: 36px;
+        color: black;
+      }
+      #video {
+        width: 100%;
+        height: auto;
+      }
+
       @media only screen and (max-width: 600px) {
         .wrapper {
         flex-direction: column;
@@ -101,15 +120,18 @@
                 COUNTDOWN HERE
             </h1>
             <button id="stay-updated" class="helvetica uppercase">
-                    stay updated                
+                stay updated   
             </button>
         </div>
 
         </div>
       </div>
-      <div id="column">
+      <div>
         <div id="full-page">
-            image
+            <div id="video-container">
+                <video autoplay muted loop playsinline id="video" src="https://eyoonit.files.wordpress.com/2022/10/jiggle-jiggle-slow-1.mp4"></video>
+                <div id="video-text">hi, start here.</div>
+            </div>
         </div>
         <div>
             Hi!
