@@ -89,24 +89,27 @@
       #full-page {
         background: #4EDAB7;
         min-height: 100vh;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
       }
       #video-container {
         margin: 0px 86px;
-        position: absolute;
-        top: 50%;
-        transform: translateY(-50%);
+        position: relative;
       }
       #video-text {
         margin: 0;
         position: absolute;
-        left: 50%;
-        top: 50%;
-        transform: translate(-50%, -50%);
-
         font-size: 36px;
         color: black;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        
       }
       #video {
+        max-width: 636px;
         width: 100%;
         height: auto;
       }
