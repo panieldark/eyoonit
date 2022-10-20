@@ -11,7 +11,52 @@
         margin: 0;
         padding: 0;
         color: white;
+        font-family: Tobias-Light;
       }
+      @font-face {
+        font-family: Tobias-Light;
+        src: url('./assets/fonts/TobiasTRIAL-Light.otf');
+      }
+      @font-face {
+        font-family: Tobias-LightItalic;
+        src: url('./assets/fonts/TobiasTRIAL-LightItalic.otf');
+      }
+      @font-face {
+        font-family: Tobias-SemiBoldItalic;
+        src: url('./assets/fonts/TobiasTRIAL-SemiBoldItalic.otf');
+      }
+      h1 {
+        font-size: 74px;
+        margin: 0;
+      }
+
+      .helvetica-condensedbold {
+        font-family: 'HelveticaNeue-CondensedBold';
+      }
+      .uppercase {
+        text-transform: uppercase;
+      }
+      .helvetica {
+        font-family: 'Helvetica Neue'
+      }
+      #countdown {
+        padding-bottom: 20px;
+      }
+      #stay-updated {
+        width: 245px;
+        height: 56px;
+        left: 80px;
+        top: 584px;
+        background-color: transparent;
+        color: white;
+
+        border-radius: 15px;
+        border: 1px solid white;
+        
+        font-size: 18px;
+        letter-spacing: 0.13em;
+      }
+      
       .wrapper {
         width: 100%;
         display: flex;
@@ -19,16 +64,17 @@
       .title {
         position: fixed;
         width: 50%;
+        top: 50%;
+        transform: translateY(-50%);
+      }
+      .margined {
+        margin: 0px 80px;
       }
       .wrapper > div {
         width: 100%;
       }
       #column {
         background: red;
-      }
-      #main-text {
-        margin-top: 40px;
-        width: 50%;
       }
       #full-page {
         min-height: 100vh;
@@ -47,11 +93,18 @@
     <div class="wrapper">
       <div>
         <div class="title">
-          <div id="main-text">
-            Oct 24, 2022: 
-            COUNTDOWN HERE
-            stay updated button
-          </div>
+            <div class="margined">
+            <h1>
+                Oct 24, 2022:
+            </h1>
+            <h1 id="countdown" class="helvetica-condensedbold uppercase">
+                COUNTDOWN HERE
+            </h1>
+            <button id="stay-updated" class="helvetica uppercase">
+                    stay updated                
+            </button>
+        </div>
+
         </div>
       </div>
       <div id="column">
