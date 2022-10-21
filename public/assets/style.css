@@ -39,6 +39,7 @@ color: white;
 text-decoration: none;
 }
 #start-here-link {
+    color: black;
     text-decoration: none;
 }
 #start-here-link:hover {
