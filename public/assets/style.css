@@ -91,7 +91,7 @@ margin: 0px 80px;
 width: 100%;
 }
 #full-page {
-background: #4EDAB7;
+background: rgb(86, 221, 176);
 min-height: 100vh;
 
 display: flex;
