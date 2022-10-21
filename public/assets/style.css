@@ -179,3 +179,9 @@ line-height: 21px;
 padding: 60px 35px;
 }
 }
+
+@media only screen and (min-width: 1440px) {
+    #header {
+        max-width: 35%;
+    }
+}
