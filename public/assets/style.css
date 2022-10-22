@@ -32,10 +32,10 @@ opacity: 90%;
 a:visited {
 color: inherit;
 }
-#telegram-link {
+.blog-link {
 color: white;
 }
-#telegram-link:hover {
+.blog-link:hover {
 text-decoration: none;
 }
 #start-here-link {
