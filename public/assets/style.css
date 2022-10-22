@@ -11,11 +11,11 @@ font-size: 24px;
 }
 @font-face {
 font-family: Tobias-Light;
-src: url('./fonts/TobiasTRIAL-Light.otf');
+src: url('./fonts/TobiasTRIAL-Thin.otf');
 }
 @font-face {
 font-family: Tobias-LightItalic;
-src: url('./fonts/TobiasTRIAL-LightItalic.otf');
+src: url('./fonts/TobiasTRIAL-ThinItalic.otf');
 }
 @font-face {
 font-family: Tobias-SemiBoldItalic;
