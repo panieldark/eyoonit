@@ -1,5 +1,5 @@
 let interval;
-const eventDay = new Date('10/24/2022').getTime();
+const eventDay = new Date(2022, 09, 24, 11).getTime();
 const hour = 1000 * 60 * 60;
 const day = hour * 24;
 
